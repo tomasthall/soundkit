@@ -1,0 +1,26 @@
+@import "style/soundboard";
+@import "style/variables";
+@import "style/mixins";
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.soundkit-wrapper {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  background: $black;
+}
+
+.footer {
+  height: 10vh;
+  padding: 0 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: $boxBg;
+  color: $white;
+}

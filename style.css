@@ -1,0 +1,43 @@
+.soundboard {
+  width: 500px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; }
+  .soundboard__box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #400000;
+    color: #ff0000;
+    margin: 15px;
+    border: 2px solid #bf0000;
+    cursor: pointer;
+    transition: 0.7s all; }
+    .soundboard__box:hover {
+      background: #a60000; }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+.soundkit-wrapper {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  background: #000000; }
+
+.footer {
+  height: 10vh;
+  padding: 0 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #400000;
+  color: #ffffff; }
+
+/*# sourceMappingURL=style.css.map */

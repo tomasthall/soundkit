@@ -1,0 +1,26 @@
+@import "variables";
+
+.soundboard {
+  width: 500px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  &__box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $boxBg;
+    color: $boxFont;
+    margin: 15px;
+    border: 2px solid $boxBorder;
+    cursor: pointer;
+    transition: 0.7s all;
+    &:hover {
+      background: lighten($boxBg, 20%);
+    }
+  }
+}
