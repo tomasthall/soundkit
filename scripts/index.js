@@ -1,4 +1,4 @@
-const channel1 = [];
+let channel1 = [], channel2 = [], channel3 = [], channel4 = [];
 let recStart = 0;
 let isRecording = false;
 
@@ -18,7 +18,8 @@ function recordMusic(e) {
     recStart = Date.now();
     isRecording = !isRecording;
     if(isRecording) {
-        document.querySelector('#rec').style.color = 'pink';
+        channel1 = [];
+        document.querySelector('#rec').classList = 'pink';
     } else {
         document.querySelector('#rec').style.color = 'white';
     }
@@ -26,7 +27,8 @@ function recordMusic(e) {
 document.addEventListener('DOMContentLoaded', appStart);
 
 function appStart() {
-    document.querySelector('#rec').addEventListener('click', recordMusic)
+    document.querySelector('.record-button').addEventListener('click', recordMusic);
+
     for (let i = 0; i < numberOfBoxes; i++) {
         let box = document.createElement('div');
         box.className = 'soundboard__box';
@@ -47,7 +49,6 @@ function appStart() {
     }
     window.addEventListener('keypress', playSound);
     document.querySelector('#play').addEventListener('click', playMusic);
-    document.querySelector('#rec').addEventListener('click', recordMusic);
 }
 
 function playSound(e) {

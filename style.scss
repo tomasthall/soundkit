@@ -10,18 +10,27 @@ body {
 
 .soundkit-wrapper {
   width: 100vw;
-  height: 90vh;
+  height: 85vh;
+
   display: flex;
   justify-content: center;
   background: $black;
 }
 
 .footer {
-  height: 10vh;
+  height: 15vh;
   padding: 0 30px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   background: $boxBg;
   color: $white;
+
+  .record-button {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: 1px solid $boxFont;
+    transition: 0.3s all;
+  }
 }
