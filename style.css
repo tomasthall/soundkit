@@ -40,7 +40,7 @@ body {
   align-items: center;
   background: #400000;
   color: #ffffff; }
-  .footer .record-button {
+  .footer .record-button, .footer .play-button {
     display: inline-block;
     cursor: pointer;
     padding: 10px 15px;
