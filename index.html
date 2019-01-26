@@ -13,16 +13,22 @@
     </section>
     <footer class="footer">
         <div class="footer__wrapper">
-            <div id="recOne" class="record-button">Record Channel 1</div>
-            <div id="recTwo" class="record-button">Record Channel 2</div>
-            <div id="recThree" class="record-button">Record Channel 3</div>
-            <div id="recFour" class="record-button">Record Channel 4</div>
-            <div id="play">Play</div>
+            <div id="channel1" class="record-button" onclick="recordChannelOne()">Record Channel 1</div>
+            <div id="channel2" class="record-button" onclick="recordChannelTwo()">Record Channel 2</div>
+            <div id="channel3" class="record-button" onclick="recordChannelThree()">Record Channel 3</div>
+            <div id="channel4" class="record-button" onclick="recordChannelFour()">Record Channel 4</div>
+            <div id="play1" class="play-button" onclick="playChannelOne()">Play channel 1</div>
+            <div id="play2" class="play-button" onclick="playChannelTwo()">Play channel 2</div>
+            <div id="play3" class="play-button" onclick="playChannelThree()">Play channel 3</div>
+            <div id="play4" class="play-button" onclick="playChannelFour()">Play channel 4</div>
             <div class="footer__column">Done by Mateusz Tomczyk</div>
             <div class="footer__column"></div>
         </div>
     </footer>
-    <audio src="" id="audioDOMe"></audio>
+    <audio src="" id="audioDOMOne"></audio>
+    <audio src="" id="audioDOMTwo"></audio>
+    <audio src="" id="audioDOMThree"></audio>
+    <audio src="" id="audioDOMFour"></audio>
     <script src="scripts/index.js"></script>
 </body>
 </html>
