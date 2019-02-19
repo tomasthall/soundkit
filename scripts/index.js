@@ -18,10 +18,12 @@ let sounds = [
     {key: '118', src: 'sounds/snare2.mp3', name: 'snare'},
     {key: '101', src: 'sounds/crash1.wav', name: 'crash1'},
     {key: '114', src: 'sounds/crash3.wav', name: 'crash2'},
-    {key: '117', src: 'sounds/chant.wav', name: 'chant'}
+    {key: '117', src: 'sounds/chant.wav', name: 'chant'},
+    {key: '111', src: 'sounds/gun.wav', name: 'gun'},
+    {key: '102', src: 'sounds/clap.WAV', name: 'clap'}
     ];
 
-let numberOfBoxes = 7;
+let numberOfBoxes = 9;
 
 function recordChannelOne() {
     recStartOne = Date.now();

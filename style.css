@@ -27,24 +27,31 @@ body {
 
 .soundkit-wrapper {
   width: 100vw;
-  height: 85vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   background: #000000; }
 
 .footer {
-  height: 15vh;
-  padding: 0 30px;
+  height: 30vh;
+  width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   background: #400000;
   color: #ffffff; }
+  .footer__wrapper {
+    width: 100%; }
   .footer .record-button, .footer .play-button {
     display: inline-block;
     cursor: pointer;
     padding: 10px 15px;
     border: 1px solid #ff0000;
-    transition: 0.3s all; }
+    transition: 0.3s all;
+    min-width: 150px;
+    margin-bottom: 5px; }
+  .footer__buttons-container {
+    width: 50%;
+    display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */
